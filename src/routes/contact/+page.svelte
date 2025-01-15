@@ -1,6 +1,3 @@
-
-
-<!-- src/routes/contact/+page.svelte -->
 <script>
   import { Phone, Mail, MapPin, Clock, Calendar, MessageSquare } from 'lucide-svelte';
 
