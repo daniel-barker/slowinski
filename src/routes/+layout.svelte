@@ -1,7 +1,7 @@
+<!-- src/routes/+layout.svelte -->
 <script>
-  import { Phone, Mail, MapPin, Menu } from 'lucide-svelte';
+  import { Phone, Mail, MapPin, Menu, Clock } from 'lucide-svelte';
   import MobileMenu from '$lib/components/MobileMenu.svelte';
-  import '../app.css';
 
   let isMobileMenuOpen = false;
 
@@ -17,9 +17,7 @@
       <div class="flex justify-between items-center py-4">
         <!-- Logo -->
         <div class="flex items-center">
-          <a href="/">
-            <img src="/images/logo2.png" alt="Slowinski Services Logo" class="h-12 w-auto" />
-          </a>
+          <span class="text-2xl font-bold text-blue-600">Slowinski Services</span>
         </div>
 
         <!-- Navigation -->
@@ -67,15 +65,19 @@
           <div class="space-y-2">
             <div class="flex items-center">
               <MapPin class="h-5 w-5 mr-2 flex-shrink-0" />
-              <span>Essential Solutions Office<br>Depew, NY</span>
+              <span>34 Patrick Lane<br>Depew, NY 14043</span>
             </div>
             <div class="flex items-center">
               <Phone class="h-5 w-5 mr-2 flex-shrink-0" />
-              <a href="tel:1-800-MEDICARE" class="hover:text-blue-400">1-800-MEDICARE</a>
+              <a href="tel:+17164007412" class="hover:text-blue-400">(716) 400-7412</a>
             </div>
             <div class="flex items-center">
               <Mail class="h-5 w-5 mr-2 flex-shrink-0" />
-              <a href="mailto:ed@slowinski-services.com" class="hover:text-blue-400">ed@slowinski-services.com</a>
+              <a href="mailto:Edward@SlowinskiServices.com" class="hover:text-blue-400">Edward@SlowinskiServices.com</a>
+            </div>
+            <div class="flex items-center mt-2 text-sm text-gray-300">
+              <Clock class="h-5 w-5 mr-2 flex-shrink-0" />
+              <span>Office Hours: 10am - 2pm<br>Available by appointment outside of these hours</span>
             </div>
           </div>
         </div>
