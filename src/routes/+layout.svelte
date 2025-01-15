@@ -1,4 +1,3 @@
-<!-- src/routes/+layout.svelte -->
 <script>
   import { Phone, Mail, MapPin, Menu } from 'lucide-svelte';
   import MobileMenu from '$lib/components/MobileMenu.svelte';
