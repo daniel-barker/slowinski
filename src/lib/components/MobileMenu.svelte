@@ -1,4 +1,3 @@
-<!-- src/lib/components/MobileMenu.svelte -->
 <script>
   export let isOpen = false;
 

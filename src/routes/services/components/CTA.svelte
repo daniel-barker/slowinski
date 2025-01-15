@@ -1,4 +1,3 @@
-<!-- src/routes/services/components/CTA.svelte -->
 <script>
   import { PhoneCall, Calendar, Mail } from 'lucide-svelte';
 </script>
