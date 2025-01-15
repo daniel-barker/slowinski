@@ -17,7 +17,9 @@
       <div class="flex justify-between items-center py-4">
         <!-- Logo -->
         <div class="flex items-center">
-          <span class="text-2xl font-bold text-blue-600">Slowinski Services</span>
+          <a href="/">
+            <img src="/images/logo2.png" alt="Slowinski Services Logo" class="h-12 w-auto" />
+          </a>
         </div>
 
         <!-- Navigation -->
